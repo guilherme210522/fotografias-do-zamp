@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Fotografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 0.5em;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px;
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        .descricao {
+            text-align: center;
+            padding: 1em;
+            background-color: #f4f4f4;
+            margin-bottom: 2em;
+        }
+        .projetos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .projeto {
+            border: 1px solid #dddddd;
+            padding: 1em;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .projeto img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            position: static;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .container {
+                padding: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logotipo_Colégio-Zampieri.ico" alt="Site Logo">
+        <h3>Fotografia De Vestimentas De anos Anteriores</h3>
+    </header>
+    <div class="descricao">
+        <p>Bem-vindo ao nosso site de fotografia! Aqui, você encontrará uma coleção fascinante de imagens que retratam a evolução das vestimentas ao longo dos anos. Explore nossos projetos para ver como a moda mudou desde o século XIX até os dias atuais.</p>
+    </div>
+    <div class="container">
+        <section id="projetos">
+            <div class="projetos">
+                <div class="projeto">
+
+                    <img src="IMG-20240522-WA0023.jpg" alt="Foto de vestimenta de 1800">
+                    <p>1800</p>
+                </div>
+                <div class="projeto">
+
+                    <img src="IMG-20240522-WA0027.jpg" alt="Foto de vestimenta de 1920">
+                    <p>1920</p>
+                </div>
+                <div class="projeto">
+             
+                    <img src="pedro.jpg" alt="Foto de vestimenta de 1950">
+                    <p>1950</p>
+                </div>
+                <div class="projeto">
+             
+                    <img src="favacho.jpg" alt="Foto de vestimenta de 1950">
+                    <p>1950</p>
+                </div>
+                <div class="projeto">
+             
+                    <img src="lucas.jpg" alt="Foto de vestimenta de 1980">
+                    <p>1980</p>
+                </div>
+                <div class="projeto">
+                   
+                    <img src="bento.jpg" alt="Foto de vestimenta de 1980">
+                    <p>1980</p>
+                </div>
+                <div class="projeto">
+              
+                    <img src="IMG-20240523-WA0047.jpg" alt="Foto de vestimenta de 1990">
+                    <p>1990</p>
+                </div>
+                <div class="projeto">
+             
+                    <img src="IMG-20240523-WA0046.jpg" alt="Foto de vestimenta de 1990">
+                    <p>1990</p>
+                </div>
+                <div class="projeto">
+            
+                    <img src="IMG-20240523-WA0045.jpg" alt="Foto de vestimenta de 1990">
+                    <p>1990</p>
+                </div>
+                <div class="projeto">
+              
+                    <img src="IMG-20240523-WA0048.jpg" alt="Foto de vestimenta de 1990">
+                    <p>1990</p>
+                </div>
+                <div class="projeto">
+                
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.38_d5eb63dd.jpg" alt="Foto de vestimenta de 2000">
+                    <p>2000</p>
+                </div>
+                <div class="projeto">
+               
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.40_ea574dae.jpg" alt="Foto de vestimenta de 2000">
+                    <p>2000</p>
+                </div>
+                <div class="projeto">
+            
+                    <img src="Imagem do WhatsApp de 2024-05-23 à(s) 21.16.40_7b3e8c68.jpg" alt="Foto de vestimenta de 2000">
+                    <p>2000</p>
+                </div>
+                <div class="projeto">
+            
+                    <img src="matheus.jpg" alt="Foto de vestimenta de 2012">
+                    <p>2012</p>
+                </div>
+                <div class="projeto">
+            
+                    <img src="gustavo.jpg" alt="Foto de vestimenta de 2020">
+                    <p>2020</p>
+                </div>
+                <div class="projeto">
+            
+                    <img src="reger.jpg" alt="Foto de vestimenta de 2020">
+                    <p>2020</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; Fotografia Dos Alunos Do Colégio Zampieri</p>
+    </footer>
+</body>
+</html>
